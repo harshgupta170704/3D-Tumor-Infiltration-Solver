@@ -1,0 +1,21 @@
+- [x] 1. Gradient Accumulation
+  - [x] Update `config.py`
+  - [x] Update `train.py`
+- [x] 2. Exponential Moving Average (EMA)
+  - [x] Create `utils/ema.py`
+  - [x] Integrate EMA in `train.py` checkpoints and validation
+- [x] 3. Deep Supervision in Decoders
+  - [x] Modify `models/decoder.py` to return multi-scale outputs
+  - [x] Modify `losses/combined_loss.py` to handle multi-scale deep supervision
+  - [x] Modify `models/hybrid_model.py` to support multi-scale
+- [x] 4. Sliding Window Inference
+  - [x] Update `predict.py` to use `sliding_window_inference`
+- [x] 5. Monte Carlo Dropout
+  - [x] Add MC Dropout support in `predict.py`
+- [x] 6. Cosine Annealing with Warm Restarts
+  - [x] Update scheduler in `train.py`
+  - [x] Update `config.py`
+- [x] 7. Training Dashboard & Metrics Logging
+  - [x] Update `train.py` to log JSON metrics, physics params, and GPU memory
+- [x] 8. Residual Connections in Decoder
+  - [x] Update `models/decoder.py` ConvBlock3D to use residual connections
