@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.env
+.venv/
+env/
+venv/
+
+# PyTorch / Checkpoints
+*.pt
+*.pth
+checkpoints/
+*.zip
+*.tar
+*.tar.gz
+
+# Medical Image Data
+*.nii
+*.nii.gz
+data/Task01_BrainTumour/
+datasets/
+
+# Logs
+logs/
+*.log
+runs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
